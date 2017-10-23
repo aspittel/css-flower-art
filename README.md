@@ -12,3 +12,14 @@ I started out writing this in pure css, and it still is 90% CSS, but I got annoy
 ## Stack
 * CSS
 * React.js
+
+## Deployment
+App is deployed at https://github.com/aspittel/css-flower-art.
+
+## Local Install
+```bash
+$ git clone https://github.com/aspittel/css-flower-art/
+$ cd css-flower-art
+$ npm install
+$ npm run start
+```
