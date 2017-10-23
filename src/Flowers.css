@@ -1,0 +1,67 @@
+.petal {
+    position: absolute;
+    background-color: white;
+    height: 120px;
+    width: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.center {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 45px;
+    left: -4px;
+    background-color: #e91e63;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+
+.flower {
+    position: absolute;
+    margin: auto;
+    display: block;
+    background: none;
+    width: 50px;
+    height: 50px;
+}
+
+
+.round-flower {
+    position: absolute;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #fb8c00;
+    height: 50px;
+    width: 50px;
+    box-shadow: 20px 22px #fff176,
+                -20px 22px #fff176,
+                -27px -17px #fff176,
+                0px -35px #fff176,
+                27px -17px #fff176;
+    margin-bottom: -16px;
+    margin-left: 40px;
+}
+
+.flower2 {
+    float: left;
+}
+
+.tear-petal {
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 50% 50% 0;
+  background: pink;
+  position: absolute;
+}
+
+.tiny-center {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: #1a237e;
+    border-radius: 50%;
+    z-index: 2;
+}
