@@ -84,6 +84,18 @@ const Flowers = (props) => {
             <RoundFlower top={200} left={1050}/>
             <PetalFlower top={400} left={1100}/>
             <PetalFlower top={50} left={1000}/>
+            <LongPetalFlower top={500} left={900}/>
+            <PetalFlower top={520} left={200}/>
+            <RoundFlower top={520} left={400}/>
+            <RoundFlower top={500} left={1200}/>
+            <LongPetalFlower top={100} left={1150}/>
+            <LongPetalFlower top={600} left={400}/>
+            <RoundFlower top={300} left={1200}/>
+            <LongPetalFlower top={600} left={1300}/>
+            <PetalFlower top={50} left={1300}/>
+            <PetalFlower top={350} left={1400}/>
+            <RoundFlower top={600} left={750}/>
+            <PetalFlower top={600} left={1000}/>
         </div>
     )
 }
