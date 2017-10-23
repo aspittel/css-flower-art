@@ -19,7 +19,7 @@ const LongPetalFlower = (props) => {
     return (
         <div className="flower" style={styles}>
             <div className="center"></div>
-            { petals }
+            {petals}
         </div>
     )
 }
@@ -96,6 +96,8 @@ const Flowers = (props) => {
             <PetalFlower top={350} left={1400}/>
             <RoundFlower top={600} left={750}/>
             <PetalFlower top={600} left={1000}/>
+            <PetalFlower top={600} left={550}/>
+            <RoundFlower top={600} left={50}/>
         </div>
     )
 }
